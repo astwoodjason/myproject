@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import comingsoon from "./comingsoon.gif";
+import border1 from "./border1.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className="App">
+        <header className="App-header"></header>
+        <img src={border1} className="border" alt="border1" />
+        <img src={comingsoon} className="Landing Page" alt="comingsoon" />
+        <div class="landing-copyright">
+          <div class="landing-copyright">
+            <h2 class="landing-copyright-text">© 2019 COLR</h2>
+          </div>
+        </div>
+      </div>
+    </body>
   );
 }
 
